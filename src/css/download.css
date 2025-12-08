@@ -22,18 +22,10 @@ body{
     list-style: none;
 }
 .menu a{
-<<<<<<< HEAD
-    text-decoration: none;
-    color: #8061c8;
-    font-weight: bold;
-    border: 2px solid #8061c8 ;
-    border-radius: 12px;
-=======
     position: relative;
     text-decoration: none;
     color: #8061c8;
     font-weight: bold;
->>>>>>> 8b1bae6 (Finalizado CSS da HomePage)
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     transition: all 0.3s ease-in-out;
     padding: 10px 20px;
@@ -42,36 +34,6 @@ body{
     justify-content: center;
     gap: 8px;
     min-width: 100px;
-<<<<<<< HEAD
-}
-.menu a:hover{
-    color: #fff;
-    background-color: #8061c8;
-    transform: scale(1.05);
-    box-shadow: 0 0 10px rgba(192, 28, 192, 0.5);
-}
-.redes-sociais{
-    display: flex;
-    flex-direction: column;
-    gap: 10px;
-    padding: 12px;
-}
-.redes-sociais a{
-    text-decoration: none;
-    color: #fff;
-    font-size: 18px;
-    transition: all 0.3s ease-in-out;
-    border: 1px solid #8061c8;
-    border-radius: 50%;
-    padding: 6px;
-}
-.redes-sociais a:hover{
-    color: #fff;
-    background-color: #8061c8;
-    transform: scale(1.05);
-}
-
-=======
     margin-right: 15px;
 }
 .menu a::after{
@@ -93,7 +55,6 @@ body{
 }
 
 
->>>>>>> 8b1bae6 (Finalizado CSS da HomePage)
 /*Parte do conteudo de download*/
 
 .donwloads {
@@ -128,9 +89,6 @@ body{
     color: white;
     font-size: 18px;
 }
-<<<<<<< HEAD
-/*Parte do Download do Windows*/
-=======
 /*Parte do Download do Windows*/
 
 /*<!--Parte do rodapé-->*/
@@ -199,4 +157,3 @@ body{
     align-items: center;
     gap: 850px;
 }
->>>>>>> 8b1bae6 (Finalizado CSS da HomePage)

@@ -26,18 +26,10 @@ body {
 }
 
 .menu a {
-<<<<<<< HEAD
-    text-decoration: none;
-    color: #8061c8;
-    font-weight: bold;
-    border: 2px solid #8061c8;
-    border-radius: 12px;
-=======
     position: relative;
     text-decoration: none;
     color: #8061c8;
     font-weight: bold;
->>>>>>> 8b1bae6 (Finalizado CSS da HomePage)
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     transition: all 0.3s ease-in-out;
     padding: 10px 20px;
@@ -46,17 +38,6 @@ body {
     justify-content: center;
     gap: 8px;
     min-width: 100px;
-<<<<<<< HEAD
-}
-
-.menu a:hover {
-    color: #fff;
-    background-color: #8061c8;
-    transform: scale(1.05);
-    box-shadow: 0 0 10px rgba(192, 28, 192, 0.5);
-}
-
-=======
     margin-right: 15px;
 }
 .menu a::after{
@@ -80,7 +61,6 @@ body {
 
 
 /*
->>>>>>> 8b1bae6 (Finalizado CSS da HomePage)
 .redes-sociais {
     display: flex;
     flex-direction: column;
@@ -103,10 +83,7 @@ body {
     background-color: #8061c8;
     transform: scale(1.05);
 }
-<<<<<<< HEAD
-=======
 */
->>>>>>> 8b1bae6 (Finalizado CSS da HomePage)
 
 /*Parte da descrição do software-->*/
 
@@ -122,12 +99,6 @@ body {
     font-size: 50px;
     margin-bottom: 50px;
 }
-<<<<<<< HEAD
-
-.descricao-texto i {
-    color: white;
-    font-size: 120px;
-=======
 .descricao-texto a{
     color: #8061c8;
     text-decoration: none;
@@ -150,7 +121,6 @@ body {
 .descricao-texto i {
     color: white;
     font-size: 62px;
->>>>>>> 8b1bae6 (Finalizado CSS da HomePage)
     display: inline-flex;
     margin-left: 20px;
     transition: all 0.3s ease-in-out;
@@ -158,36 +128,6 @@ body {
 
 .descricao-texto i:hover {
     color: #8061c8;
-<<<<<<< HEAD
-}
-
-.descricao-texto button {
-    text-decoration: none;
-    color: #8061c8;
-    font-weight: bold;
-    border: 2px solid #8061c8;
-    border-radius: 12px;
-    transition: all 0.3s ease-in-out;
-    padding: 10px 20px;
-    align-items: center;
-    justify-content: center;
-    min-width: 200px;
-    margin-bottom: 20px;
-    margin-left: 850px;
-
-}
-.descricao-texto button:hover {
-    color: #fff;
-    background-color: #8061c8;
-    transform: scale(1.05);
-    box-shadow: 0 0 10px rgba(192, 28, 192, 0.5);
-}
-.descricao-texto p {
-    text-align: center;
-    color: white;
-    font-size: 20px;
-}
-=======
     transform: scale(1.05);
 }
 
@@ -199,7 +139,6 @@ body {
     font-size: 20px;
 }
 /*Imagens do software e suas explicações*/
->>>>>>> 8b1bae6 (Finalizado CSS da HomePage)
 .descricao-imagem h2 {
     text-align: center;
     color: #8061c8;
@@ -207,42 +146,23 @@ body {
 }
 
 .descricao-imagem p {
-<<<<<<< HEAD
-    text-align: left;
-=======
     text-align: center;
     max-width: 1200px;
     margin: 0 auto;
->>>>>>> 8b1bae6 (Finalizado CSS da HomePage)
     color: white;
     font-size: 20px;
 }
 
 .descricao-imagem ul {
-<<<<<<< HEAD
-    text-align: left;
-=======
     display:flex;
     flex-direction: row;
     justify-content: center;
     gap: 65px;
->>>>>>> 8b1bae6 (Finalizado CSS da HomePage)
     color: #ffffff;
     font-size: 20px;
 }
 
 .container-imagem {
-<<<<<<< HEAD
-    align-items: center;
-    margin-left: 10%;
-}
-
-.container-imagem-2 {
-    align-items: center;
-    margin-left: 10%;
-}
-
-=======
     display: grid;
     grid-template-columns: repeat(2,1fr);
     gap: 30px;
@@ -288,7 +208,6 @@ body {
 .container-imagem-2 img:hover{
     transform: scale(1.05);
 }
->>>>>>> 8b1bae6 (Finalizado CSS da HomePage)
 /*<!--Parte do rodapé-->*/
 .rodape {
     background-color: #0f1013;
@@ -303,20 +222,11 @@ body {
 .titulo-rodape p {
     color: white;
     font-size: 20px;
-<<<<<<< HEAD
-    text-decoration: none;
-=======
     text-align: center;
->>>>>>> 8b1bae6 (Finalizado CSS da HomePage)
 }
 
 .redes-sociais-rodape {
     text-decoration: none;
-<<<<<<< HEAD
-    border: 2px solid #8061c8;
-    border-radius: 12px;
-=======
->>>>>>> 8b1bae6 (Finalizado CSS da HomePage)
     transition: all 0.3s ease-in-out;
     padding: 10px 10px;
     display: flex;
@@ -326,8 +236,6 @@ body {
     min-width: 100px;
     margin: 1%;
 }
-<<<<<<< HEAD
-=======
 .redes-sociais-rodape a{
     border-radius: 50%;
     border: 2px solid #8061c8;
@@ -339,7 +247,6 @@ body {
     background-color: #8061c8;
     transform: scale(1.05);
 }
->>>>>>> 8b1bae6 (Finalizado CSS da HomePage)
 
 .linguagens {
     text-decoration: none;
@@ -352,11 +259,7 @@ body {
     text-decoration: none;
     color: white;
     text-align: center;
-<<<<<<< HEAD
-    transition: all 0.3s ease-in-out
-=======
     transition: all 0.3s ease-in-out;
->>>>>>> 8b1bae6 (Finalizado CSS da HomePage)
 }
 
 .linguagens a:hover {
