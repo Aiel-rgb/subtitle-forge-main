@@ -1,46 +1,70 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Updates-forge</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        'purple-custom': '#8061c8',
+                        'dark-bg': '#0f1013',
+                        'dark-header': '#17171b',
+                    }
+                }
+            }
+        }
+    </script>
     <link rel="stylesheet" href="../css/update.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css" integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"
+        integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
 <body>
-<header>
-    <!--Cabeçalho-->
-    <div class="cabecalho">
-        <div class="logo">
-            <a href="#"><img src="../img/logo.png" alt="Logo-software" width="340"></a>
+    <header>
+        <!--Cabeçalho-->
+        <div class="cabecalho">
+            <div class="logo">
+                <a href="#"><img src="../img/logo.png" alt="Logo-software" width="340"></a>
+            </div>
+            <!--Menu para uma boa navegação-->
+            <div class="menu">
+                <aside>
+                    <nav>
+                        <ul>
+                            <li><a href="../index.html"><i class="fa-solid fa-house" style="color: #fff ;"></i>Home</a>
+                            </li>
+                            <li><a href="../pages/download.html"><i class="fa-solid fa-download"
+                                        style="color: #fff;"></i>Downloads</a></li>
+                            <li><a href="../pages/updates.html"><i class="fa-solid fa-pen-to-square"
+                                        style="color: #fff;"></i>Updates</a></li>
+                            <li><a href="../pages/contatos.html"><i class="fa-solid fa-address-book"
+                                        style="color: #fff;"></i>Contacts</a></li>
+                        </ul>
+                    </nav>
+                </aside>
+            </div>
         </div>
-        <!--Menu para uma boa navegação-->
-        <div class="menu">
-            <aside>
-                <nav>
-                    <ul>
-                        <li><a href="../index.html"><i class="fa-solid fa-house" style="color: #fff ;"></i>Home</a></li>
-                        <li><a href="../pages/download.html"><i class="fa-solid fa-download" style="color: #fff;"></i>Downloads</a></li>
-                        <li><a href="../pages/updates.html"><i class="fa-solid fa-pen-to-square" style="color: #fff;"></i>Updates</a></li>
-                        <li><a href="../pages/contatos.html"><i class="fa-solid fa-address-book" style="color: #fff;"></i>Contacts</a></li>
-                    </ul>
-                </nav>
-            </aside>
+    </header>
+    <main>
+        <div class="updates">
+            <div class="update-cards">
+                <section>
+                    <h1>Lançamento!</h1>
+                    <p>
+                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Rerum nam sint magnam et impedit, quia
+                        perferendis dolor eum non fuga nulla quae dolorum aut, sequi velit! Voluptatum nisi rem
+                        necessitatibus! Lorem ipsum, dolor sit amet consectetur adipisicing elit. Facilis obcaecati quo minus quidem voluptate officia voluptatum vel amet tenetur unde assumenda, provident sapiente ipsam, sunt, iure excepturi corporis quasi magni?
+                    </p>
+                    <button class="btn-ler-mais">Ler mais</button>
+                </section>
+            </div>
         </div>
-    </div>
-</header>
-<main>
-    <div class="updates">
-        <div class="update-cards">
-            <section>
-                <h1>Lançamento!</h1>
-                <p>
-                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Rerum nam sint magnam et impedit, quia perferendis dolor eum non fuga nulla quae dolorum aut, sequi velit! Voluptatum nisi rem necessitatibus!
-                </p>
-            </section>
-        </div>
-    </div>
-</main>
+    </main>
     <footer>
         <div class="rodape">
             <div class="titulo-rodape">
@@ -60,9 +84,10 @@
                     <li><a href="#">EN</a></li>
                     <li><a href="#">ES</a></li>
                 </ul>
-
             </div>
         </div>
     </footer>
+    <script src="../js/lerMais.js"></script>
 </body>
+
 </html>

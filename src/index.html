@@ -4,37 +4,62 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Subtitle forge</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        'purple-custom': '#8061c8',
+                        'dark-bg': '#0f1013',
+                        'dark-header': '#17171b',
+                    }
+                }
+            }
+        }
+    </script>
     <link rel="stylesheet" href="../src/css/style.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css" integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"
+        integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
+
 <body>
     <!--Cabeçalho da page-->
     <header>
-    <div class="cabecalho">
-        <div class="logo">
-            <a href="#"><img src="../src/img/logo.png" alt="Logo-software" width="340"></a>
+        <div class="cabecalho">
+            <div class="logo">
+                <a href="#"><img src="../src/img/logo.png" alt="Logo-software" width="340"></a>
+            </div>
+            <div class="menu">
+                <aside>
+                    <nav>
+                        <ul>
+                            <li><a href="index.html"><i class="fa-solid fa-house" style="color: #fff ;"></i>Home</a>
+                            </li>
+                            <li><a href="../src/pages/download.html"><i class="fa-solid fa-download"
+                                        style="color: #fff;"></i>Downloads</a></li>
+                            <li><a href="../src/pages/updates.html"><i class="fa-solid fa-pen-to-square"
+                                        style="color: #fff;"></i>Updates</a></li>
+                            <li><a href="../src/pages/contatos.html"><i class="fa-solid fa-address-book"
+                                        style="color: #fff;"></i>Contacts</a></li>
+                        </ul>
+                    </nav>
+                </aside>
+            </div>
         </div>
-        <div class="menu">
-            <aside>
-                <nav>
-                    <ul>
-                        <li><a href="index.html"><i class="fa-solid fa-house" style="color: #fff ;"></i>Home</a></li>
-                        <li><a href="../src/pages/download.html"><i class="fa-solid fa-download" style="color: #fff;"></i>Downloads</a></li>
-                        <li><a href="../src/pages/updates.html"><i class="fa-solid fa-pen-to-square" style="color: #fff;"></i>Updates</a></li>
-                        <li><a href="../src/pages/contatos.html"><i class="fa-solid fa-address-book" style="color: #fff;"></i>Contacts</a></li>
-                    </ul>
-                </nav>
-            </aside>
-        </div>
-    </div>
     </header>
     <!--Parte da descrição do software-->
     <main>
         <div class="descricao">
             <div class="descricao-texto">
                 <h1>Legende seus videos de forma limpa e rapida</h1>
-                <p>Subtitle-forge é uma aplicação multiplataforma para criar, editar e incorporar legendas de forma automática em vídeos. Utiliza modelos de IA (Whisper) para gerar transcrições com alta precisão, seguindo princípios de Clean Code e arquitetura modular. <a href="pages/download.html">Teste aqui</a></p>
-                <p><i class="fa-brands fa-linux"></i><i class="fa-brands fa-windows"></i> -> Disponível nesses sistemas:</p>
+                <p>Subtitle-forge é uma aplicação multiplataforma para criar, editar e incorporar legendas de forma
+                    automática em vídeos. Utiliza modelos de IA (Whisper) para gerar transcrições com alta precisão,
+                    seguindo princípios de Clean Code e arquitetura modular. <a href="pages/download.html">Teste
+                        aqui</a></p>
+                <p><i class="fa-brands fa-linux"></i><i class="fa-brands fa-windows"></i> -> Disponível nesses sistemas:
+                </p>
             </div>
             <div class="descricao-imagem">
                 <div class="container-imagem">
@@ -44,7 +69,8 @@
                 </div>
                 <h2>O que o Subtitle faz?</h2>
                 <p>
-                    SubtitleForge é uma aplicação que por meio da IA whisper, você cria suas legendas de forma automatica, e pode personalizar a sua escolha, mudando tamanho cores e etc.
+                    SubtitleForge é uma aplicação que por meio da IA whisper, você cria suas legendas de forma
+                    automatica, e pode personalizar a sua escolha, mudando tamanho cores e etc.
                 </p>
                 <h2>Caracteristicas do Subtitle-forge</h2>
                 <ul>
@@ -83,7 +109,9 @@
 
             </div>
         </div>
-        
+
     </footer>
+    <script src="../src/js/imagem.js"></script>
 </body>
+
 </html>

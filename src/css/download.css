@@ -70,7 +70,7 @@ footer{
     display: flex;
 }
 
-.downloads-opcoes a:hover 
+.downloads-opcoes a:hover
 
 /*Parte do Donwload do Linux*/
 
@@ -196,4 +196,123 @@ footer{
     display: flex;
     align-items: center;
     gap: 850px;
+}
+
+
+/* Tablets e telas médias */
+@media (max-width: 1024px) {
+    .cabecalho {
+        flex-direction: column;
+        padding: 10px;
+    }
+
+    .menu ul {
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 10px;
+        padding: 10px;
+    }
+
+    .menu a {
+        padding: 8px 15px;
+        min-width: 80px;
+        font-size: 14px;
+    }
+
+    .downloads-linux h1,
+    .downloads-windows h1 {
+        font-size: 35px;
+        padding: 0 20px;
+    }
+
+    .downloads-linux p,
+    .downloads-windows p {
+        font-size: 16px;
+        padding: 0 20px;
+    }
+
+    .downloads-linux pre code {
+        font-size: 14px;
+    }
+
+    .linguagens ul {
+        gap: 50px;
+    }
+}
+
+/* Celulares */
+@media (max-width: 768px) {
+    .logo img {
+        width: 200px;
+    }
+
+    .menu ul {
+        flex-direction: column;
+        gap: 5px;
+    }
+
+    .menu a {
+        padding: 8px 10px;
+        min-width: auto;
+        margin-right: 0;
+    }
+
+    .downloads-linux h1,
+    .downloads-windows h1 {
+        font-size: 28px;
+        margin-bottom: 20px;
+    }
+
+    .downloads-linux p,
+    .downloads-windows p {
+        font-size: 14px;
+        padding: 0 15px;
+    }
+
+    .downloads-linux pre {
+        overflow-x: auto;
+        padding: 0 10px;
+    }
+
+    .downloads-linux pre code {
+        font-size: 12px;
+        white-space: pre-wrap;
+        word-break: break-all;
+    }
+
+    .downloads-windows button {
+        font-size: 16px;
+        padding: 8px 16px;
+    }
+
+    .titulo-rodape h3 {
+        font-size: 24px;
+    }
+
+    .titulo-rodape p {
+        font-size: 14px;
+        padding: 0 10px;
+    }
+
+    .linguagens ul {
+        gap: 20px;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .redes-sociais-rodape {
+        flex-wrap: wrap;
+    }
+}
+
+/* Celulares pequenos */
+@media (max-width: 480px) {
+    .logo img {
+        width: 160px;
+    }
+
+    .downloads-linux h1,
+    .downloads-windows h1 {
+        font-size: 22px;
+    }
 }

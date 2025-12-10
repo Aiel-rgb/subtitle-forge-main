@@ -93,10 +93,34 @@ footer{
     font-size: 50px;
     margin-bottom: 50px;
 }
-.updates-card p{
+.update-cards p{
     text-align: center;
-    color: white;
+    color: rgb(255, 255, 255);
     font-size: 20px;
+    display: -webkit-box;
+    -webkit-line-clamp: 3;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.btn-ler-mais {
+    background-color: #8061c8;
+    color: white;
+    font-size: 16px;
+    font-family: 'Science Gothic', sans-serif;
+    border: none;
+    border-radius: 8px;
+    padding: 12px 30px;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+    margin-top: 15px;
+}
+
+.btn-ler-mais:hover {
+    background-color: #fff;
+    color: #8061c8;
+    transform: scale(1.05);
 }
 
 /*Parte do rodapé*/
@@ -163,4 +187,109 @@ footer{
     display: flex;
     align-items: center;
     gap: 850px;
+}
+
+/* Tablets e telas médias */
+@media (max-width: 1024px) {
+    .cabecalho {
+        flex-direction: column;
+        padding: 10px;
+    }
+
+    .menu ul {
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 10px;
+        padding: 10px;
+    }
+
+    .menu a {
+        padding: 8px 15px;
+        min-width: 80px;
+        font-size: 14px;
+    }
+
+    .update-cards {
+        width: 90%;
+        max-width: 700px;
+    }
+
+    .update-cards h1 {
+        font-size: 35px;
+    }
+
+    .linguagens ul {
+        gap: 50px;
+    }
+}
+
+/* Celulares */
+@media (max-width: 768px) {
+    .logo img {
+        width: 200px;
+    }
+
+    .menu ul {
+        flex-direction: column;
+        gap: 5px;
+    }
+
+    .menu a {
+        padding: 8px 10px;
+        min-width: auto;
+        margin-right: 0;
+    }
+
+    .update-cards {
+        width: 95%;
+        padding: 15px;
+        margin-top: 20px;
+    }
+
+    .update-cards h1 {
+        font-size: 28px;
+        margin-bottom: 20px;
+    }
+
+    .update-cards p {
+        font-size: 16px;
+    }
+
+    .update-cards:hover {
+        transform: scale(1.02);
+    }
+
+    .titulo-rodape h3 {
+        font-size: 24px;
+    }
+
+    .titulo-rodape p {
+        font-size: 14px;
+        padding: 0 10px;
+    }
+
+    .linguagens ul {
+        gap: 20px;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .redes-sociais-rodape {
+        flex-wrap: wrap;
+    }
+}
+
+/* Celulares pequenos */
+@media (max-width: 480px) {
+    .logo img {
+        width: 160px;
+    }
+
+    .update-cards h1 {
+        font-size: 22px;
+    }
+
+    .update-cards p {
+        font-size: 14px;
+    }
 }
