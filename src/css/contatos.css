@@ -63,78 +63,64 @@ footer{
     transform: scale(1.05);
 }
 
-
-/*Parte do conteudo de download*/
-
-.downloads {
+.contatos {
+    padding: 40px 20px;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+.card-contatos {
     display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+    align-items: flex-start;
 }
-
-.downloads-opcoes a:hover 
-
-/*Parte do Donwload do Linux*/
-
-.downloads-linux {
-    display: flex;
+.card-contatos section {
+    display: contents;
 }
-
-.downloads-linux h1 {
+.card-email,
+.card-telefone,
+.card-linkedin,
+.card-youtube,
+.card-github {
+    background-color: #17181d;
+    border: 2px solid #8061c8;
+    border-radius: 10px;
+    padding: 30px;
+    width: calc(33.333% - 20px); /* 3 cards por linha */
+    min-width: 250px;
     text-align: center;
-    color: #8061c8;
-    font-size: 50px;
-    margin-bottom: 50px;
-}
-
-.downloads-linux p {
-    text-align: left;
-    color: white;
-    font-size: 20px;
-}
-
-.downloads-linux pre code {
-    text-align: left;
-    color: white;
-    font-size: 18px;
-}
-
-/*Parte do Download do Linux*/
-
-.downloads-windows h1 {
-    text-align: center;
-    color: #8061c8;
-    font-size: 50px;
-    margin-bottom: 50px;
-}
-
-.downloads-windows p {
-    color: white;
-    font-size: 20px;
-}
-
-.downloads-windows button{
-    background-color: #8061c8;
-    color: white;
-    font-size: 20px;
-    font-family: science gothic;
-    border: none;
-    border-radius: 5px;
-    padding: 10px 20px;
-    cursor: pointer;
     transition: all 0.3s ease-in-out;
+    box-shadow: 0 4px 6px rgba(128, 97, 200, 0.2);
 }
 
-.downloads-windows button:hover {
-    background-color: #fff;
+.card-email:hover,
+.card-telefone:hover,
+.card-linkedin:hover,
+.card-youtube:hover,
+.card-github:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 12px rgba(128, 97, 200, 0.4);
+    background-color: #1f2027;
+}
+
+.card-contatos h2 {
     color: #8061c8;
-    transform: scale(1.05);
+    font-size: 24px;
+    margin-bottom: 15px;
+    font-weight: bold;
 }
 
+.card-contatos span {
+    color: white;
+    font-size: 16px;
+    display: block;
+}
 
-/*<!--Parte do rodapé-->*/
+/*Parte do rodapé*/
 .rodape {
     background-color: #0f1013;
-    border-top:ridge 4px #8061c8;
-
+    border-top: 4px ridge #8061c8;
 }
 
 .titulo-rodape h3 {
@@ -184,7 +170,6 @@ footer{
     color: white;
     text-align: center;
     transition: all 0.3s ease-in-out;
-    margin-bottom: 22px;
 }
 
 .linguagens a:hover {
