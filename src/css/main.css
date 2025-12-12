@@ -5,12 +5,12 @@
 @import 'base/_tokens.css';
 
 /* Components */
-@import 'components/_header.css';
-@import 'components/_description.css';
-@import 'components/_gallery.css';
-@import 'components/_footer.css';
+@import 'components/_cabecalho.css';
+@import 'components/_descricao.css';
+@import 'components/_galeria.css';
+@import 'components/_rodape.css';
 
 /* Page-specific components */
-@import 'components/_updates.css';
-@import 'components/_downloads.css';
-@import 'components/_contacts.css';
+@import 'components/_update.css';
+@import 'components/_download.css';
+@import 'components/_contatos.css';

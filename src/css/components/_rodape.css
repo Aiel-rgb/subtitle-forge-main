@@ -1,0 +1,104 @@
+.rodape {
+    background-color: var(--color-background);
+    border-top: ridge 4px var(--color-primary);
+}
+
+.titulo-rodape {
+    h3 {
+        text-align: center;
+        color: var(--color-primary);
+        font-size: var(--font-size-lg);
+    }
+
+    p {
+        color: var(--color-text);
+        font-size: var(--font-size-md);
+        text-align: center;
+    }
+}
+
+.redes-sociais-rodape {
+    text-decoration: none;
+    transition: var(--transition-fast);
+    padding: var(--spacing-sm);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 8px;
+    min-width: 100px;
+    margin: 1%;
+
+    a {
+        border-radius: 50%;
+        border: var(--border-width) solid var(--color-primary);
+        padding: 6px;
+        transition: var(--transition-fast);
+
+        &:hover {
+            color: var(--color-text);
+            background-color: var(--color-primary);
+            transform: scale(1.05);
+        }
+    }
+}
+
+.linguagens {
+    list-style: none;
+    text-decoration: none;
+    font-weight: bold;
+    padding: var(--spacing-sm);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    ul {
+        display: flex;
+        gap: var(--spacing-md);
+    }
+
+    a {
+        color: var(--color-text);
+        text-align: center;
+        transition: var(--transition-fast);
+        display: inline-block;
+        text-decoration: none;
+
+        &:hover {
+            color: var(--color-text-muted);
+            transform: scale(1.05);
+        }
+    }
+}
+
+@media (max-width: 1024px) {
+    .linguagens {
+        ul {
+            gap: 50px;
+        }
+    }
+}
+
+@media (max-width: 768px) {
+    .titulo-rodape {
+        h3 {
+            font-size: 24px;
+        }
+
+        p {
+            font-size: var(--font-size-xs);
+            padding: 0 var(--spacing-sm);
+        }
+    }
+
+    .linguagens {
+        ul {
+            gap: var(--spacing-md);
+            flex-wrap: wrap;
+            justify-content: center;
+        }
+    }
+
+    .redes-sociais-rodape {
+        flex-wrap: wrap;
+    }
+}

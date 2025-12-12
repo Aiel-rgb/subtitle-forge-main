@@ -8,8 +8,8 @@
 
 .menu {
 
-    /* Aninhando ul dentro de .menu */
-    & ul {
+
+     ul {
         display: flex;
         justify-content: center;
         align-items: center;
@@ -17,8 +17,8 @@
         list-style: none;
     }
 
-    /* Aninhando a dentro de .menu */
-    & a {
+
+     a {
         position: relative;
         text-decoration: none;
         color: var(--color-primary);
@@ -33,7 +33,6 @@
         min-width: 100px;
         margin-right: 15px;
 
-        /* Pseudo-elemento aninhado */
         &::after {
             content: '';
             position: absolute;
@@ -45,7 +44,6 @@
             transition: width var(--transition-fast);
         }
 
-        /* Hover states aninhados */
         &:hover {
             color: var(--color-text);
             transform: scale(1.05);
@@ -58,9 +56,9 @@
 }
 
 .logo {
-    & img {
+     img {
 
-        /* Estilos responsivos aninhados */
+
         @media (max-width: 768px) {
             width: 200px;
         }
@@ -71,7 +69,6 @@
     }
 }
 
-/* Media queries para o cabecalho e menu */
 @media (max-width: 1024px) {
     .cabecalho {
         flex-direction: column;
@@ -79,14 +76,14 @@
     }
 
     .menu {
-        & ul {
+         ul {
             flex-wrap: wrap;
             justify-content: center;
             gap: var(--spacing-sm);
             padding: var(--spacing-sm);
         }
 
-        & a {
+         a {
             padding: 8px 15px;
             min-width: 80px;
             font-size: var(--font-size-xs);
@@ -96,12 +93,12 @@
 
 @media (max-width: 768px) {
     .menu {
-        & ul {
+         ul {
             flex-direction: column;
             gap: var(--spacing-xs);
         }
 
-        & a {
+         a {
             padding: 8px 10px;
             min-width: auto;
             margin-right: 0;
