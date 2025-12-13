@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Subtitle forge</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
     <link rel="stylesheet" href="src/css/main.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"
         integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw=="
@@ -35,43 +36,96 @@
             </div>
         </div>
     </header>
-    <!--Parte da descrição do software-->
-    <main>
-        <div class="descricao">
-            <div class="descricao-texto">
-                <h1>Legende seus videos de forma limpa e rapida</h1>
-                <p>Subtitle-forge é uma aplicação multiplataforma para criar, editar e incorporar legendas de forma
-                    automática em vídeos. Utiliza modelos de IA (Whisper) para gerar transcrições com alta precisão,
-                    seguindo princípios de Clean Code e arquitetura modular. <a href="src/pages/download.html">Teste
-                        aqui</a></p>
-                <p><i class="fa-brands fa-linux"></i><i class="fa-brands fa-windows"></i> -> Disponível nesses sistemas:
-                </p>
-            </div>
-            <div class="descricao-imagem">
-                <div class="container-imagem">
-                    <img src="src/img/img1.jpeg" alt="Layout-1">
-                    <img src="src/img/img2.jpeg" alt="Layout-2">
-                    <img src="src/img/img3.jpeg" alt="Layout-3">
-                </div>
-                <h2>O que o Subtitle faz?</h2>
-                <p>
-                    SubtitleForge é uma aplicação que por meio da IA whisper, você cria suas legendas de forma
-                    automatica, e pode personalizar a sua escolha, mudando tamanho cores e etc.
-                </p>
-                <h2>Caracteristicas do Subtitle-forge</h2>
-                <ul>
-                    <li>Multiplataforma</li>
-                    <li>Interface simples e intuitiva</li>
-                    <li>È um programa de código aberto</li>
-                </ul>
-                <div class="container-imagem-2">
-                    <img src="src/img/img4.jpeg" alt="Layout-4">
-                    <img src="src/img/img5.jpeg" alt="Layout-5">
-                    <img src="src/img/img6.jpeg" alt="Layout-6">
-                </div>
-            </div>
+<!--Parte da descrição do software-->
+<main>
+    <div class="descricao">
+        <div class="descricao-texto">
+            <h1>Legende seus videos de forma limpa e rapida</h1>
+            <p>Subtitle-forge é uma aplicação multiplataforma para criar, editar e incorporar legendas de forma
+                automática em vídeos. Utiliza modelos de IA (Whisper) para gerar transcrições com alta precisão,
+                seguindo princípios de Clean Code e arquitetura modular. <a href="src/pages/download.html">Teste
+                    aqui</a></p>
+            <p><i class="fa-brands fa-linux"></i><i class="fa-brands fa-windows"></i> -> Disponível nesses sistemas:
+            </p>
         </div>
-    </main>
+        <div class="descricao-imagem">
+
+            <!-- Primeiro Carousel -->
+            <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel"
+                style="max-width: 800px; margin: 0 auto 2rem auto;">
+                <div class="carousel-indicators">
+                    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active"
+                        aria-current="true" aria-label="Slide 1"></button>
+                    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"
+                        aria-label="Slide 2"></button>
+                    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"
+                        aria-label="Slide 3"></button>
+                </div>
+                <div class="carousel-inner" style="border-radius: 8px; overflow: hidden; border: 2px solid var(--color-primary);">
+                    <div class="carousel-item active">
+                        <img src="src/img/img1.jpeg" class="d-block w-100" alt="Layout-1">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="src/img/img2.jpeg" class="d-block w-100" alt="Layout-2">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="src/img/img3.jpeg" class="d-block w-100" alt="Layout-3">
+                    </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators"
+                    data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators"
+                    data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                </button>
+            </div>
+            
+            <h2>O que o Subtitle faz?</h2>
+            <p>
+                SubtitleForge é uma aplicação que por meio da IA whisper, você cria suas legendas de forma
+                automatica, e pode personalizar a sua escolha, mudando tamanho cores e etc.
+            </p>
+            <h2>Caracteristicas do Subtitle-forge</h2>
+            <ul>
+                <li>Multiplataforma</li>
+                <li>Interface simples e intuitiva</li>
+                <li>È um programa de código aberto</li>
+            </ul>
+
+            <!-- Segundo Carousel -->           
+            <div id="carouselExampleIndicators2" class="carousel slide" data-bs-ride="carousel" style="max-width: 800px; margin: 0 auto 2rem auto;">
+                <div class="carousel-indicators">
+                    <button type="button" data-bs-target="#carouselExampleIndicators2" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                    <button type="button" data-bs-target="#carouselExampleIndicators2" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                    <button type="button" data-bs-target="#carouselExampleIndicators2" data-bs-slide-to="2" aria-label="Slide 3"></button>
+    </div>
+    <div class="carousel-inner" style="border-radius: 8px; overflow: hidden; border: 2px solid var(--color-primary);">
+        <div class="carousel-item active">
+            <img src="src/img/img4.jpeg" class="d-block w-100" alt="Layout-4">
+        </div>
+        <div class="carousel-item">
+            <img src="src/img/img5.jpeg" class="d-block w-100" alt="Layout-5">
+        </div>
+        <div class="carousel-item">
+            <img src="src/img/img6.jpeg" class="d-block w-100" alt="Layout-6">
+        </div>
+    </div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators2" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators2" data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+    </button>
+</div>
+        </div>
+    </div>
+</main>
     <!--Parte do rodapé-->
     <footer>
         <div class="rodape">
@@ -98,6 +152,7 @@
             </div>
         </div>
     </footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
     <script src="src/js/imagem.js"></script>
 </body>
 </html>
