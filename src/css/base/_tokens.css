@@ -21,6 +21,7 @@
     --font-size-xl: 50px;
     --font-size-xxl: 62px;
 
+
     /* Espaçamento */
     --spacing-xs: 5px;
     --spacing-sm: 10px;
@@ -31,6 +32,7 @@
     /* Bordas */
     --border-radius: 12px;
     --border-width: 2px;
+    --border-width-lg: 4px;
 
     /* Transições */
     --transition-fast: 0.3s ease-in-out;
