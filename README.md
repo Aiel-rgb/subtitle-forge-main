@@ -50,7 +50,7 @@ Facilitar a criação de legendas para vídeos de forma rápida, limpa e automat
 
 | Home | Downloads | Updates |
 |------|-----------|---------|
-| ![Home](src/img/img1.jpeg) | ![Downloads](src/img/img2.jpeg) | ![Updates](src/img/img3.jpeg) |
+| ![Home](src/img/home.png) | ![Downloads](src/img/downloads.png) | ![Updates](src/img/updates.png) |
 
 </div>
 
