@@ -189,8 +189,10 @@ Contribuições são sempre bem-vindas!
 ---
 <div align="center">
 
+
 **Feito com 💜 por Lamp**
 
 ⭐ Deixe uma estrela se este projeto te ajudou!
 
+![Profile Views](https://komarev.com/ghpvc/?username=Aiel-rgb&color=00D9FF&style=for-the-badge)
 </div>
